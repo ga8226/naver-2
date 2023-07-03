@@ -1,0 +1,15 @@
+.container{
+   border-radius: 80px;
+   max-width: 1280px;
+   margin: 0 auto;
+   height: 580px;
+   
+}
+
+
+@media(max-width:991px){
+    .container{
+        height: 100vh;
+       
+    }
+}

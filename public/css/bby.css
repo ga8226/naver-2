@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Ns";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Ns";
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+ul, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+#hd h1 a {
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-image: url(../srcimg/sp_common.png);
+  background-position: -362px -268px;
+  font-size: 0;
+  transform: scale(0.85);
+}
+#hd .sns li a {
+  display: block;
+  width: 44px;
+  height: 48px;
+  background-image: url(../srcimg/sp_common.png);
+  background-position: -369px -139px;
+  transform: scale(0.85);
+}
+
+#content {
+  padding-top: 100px;
+}
+#content .event {
+  background-color: lightpink;
+}
+#content .membershop {
+  background-color: lightblue;
+}
+#content .promotion {
+  background-color: lightsalmon;
+}
+
+#product #sale {
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  padding: 10px 10px;
+  position: absolute;
+}
+#product p {
+  font-size: 16px;
+  font-weight: 300;
+}
+#product h3 {
+  font-size: 22px;
+}/*# sourceMappingURL=bby.css.map */
