@@ -1,5 +1,6 @@
 import React from 'react'
 import  Licom from '../component/Licomponent'
+import prolist from '../db/Bo'
 
 const Portfolio = (props)=> {
     
@@ -7,7 +8,9 @@ const Portfolio = (props)=> {
 
         <section>
         
-          <Licom></Licom>
+          <Licom dbnm={prolist.sellerdb}></Licom>
+          <Licom dbnm={prolist.sellerdb2}></Licom>
+
 
          
         </section>

@@ -1,50 +1,16 @@
-const Licom = ()=>{
-    const sellerdb = 
-        [
-            {
-                imgsrc : "../srcimg/newb.png" ,
-                brandnm : "뉴트리코어",
-                proprice : 462000,
-                saleprice : 33000,
-                pronm : "유기농비오틴 1박스"
-            },
-            {
-                imgsrc : "../srcimg/ptw.png" ,
-                brandnm : "파이토웨이",
-                proprice : 474000,
-                saleprice : 79000,
-                pronm : "판토모나 비오틴 플러스맥스 여성용 1박스"
-            },
-            {
-                imgsrc : "../srcimg/ptns.png" ,
-                brandnm : "파이토웨이",
-                proprice : 79000,
-                saleprice : 79000,
-                pronm : "할인안해"
-            },
-            {
-                imgsrc : "../srcimg/ptm.png" ,
-                brandnm : "파이토웨이",
-                proprice : 474000,
-                saleprice : 79000,
-                pronm : "판토모나 비오틴 플러스맥스 남성용 1박스"
-            },
-    
-        ]
-        
-    
-   
+
+
+const Licom = (props)=>{
     
     return( 
         <>
-        <div>
-        
-
+        <div className="container pt-5">
+        <p>돌고돌아 정착한</p>
         </div>
     
         <ul className="d-flex flex-wrap container" id="product" >
             {
-                  sellerdb.map((v,i)=>{
+                  props.dbnm.map((v,i)=>{
                     return(
                         <li className="d-flex position-relative col-md-6 pt-5">
                             {  v.proprice != v.saleprice && 
