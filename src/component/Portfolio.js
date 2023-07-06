@@ -8,8 +8,9 @@ const Portfolio = (props)=> {
 
         <section>
         
-          <Licom dbnm={prolist.sellerdb}></Licom>
-          <Licom dbnm={prolist.sellerdb2}></Licom>
+          <Licom dbnm={prolist.sellerdb} titlebd={{ span : "작은글씨타이틀", big : "큰글씨들 ", cls : ""}} ></Licom>
+          <Licom dbnm={prolist.sellerdb} titlebd={{ span : "작은글씨타이틀", big : "큰글씨들 ", cls : ""}} ></Licom>
+          <Licom dbnm={prolist.sellerdb2}  titlebd={{ span : "작은글씨타이틀2", big : "큰글씨들3 ", cls: "d-none"}} ></Licom>
 
 
          

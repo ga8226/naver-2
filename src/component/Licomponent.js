@@ -4,9 +4,13 @@ const Licom = (props)=>{
     
     return( 
         <>
-        <div className="container pt-5">
-        <p>돌고돌아 정착한</p>
+        <div className={`container pt-5 ${props.titlebd.cls}`} id="listdb">
+        <div >
+        <p>{ props.titlebd.span}<span>{props.titlebd.big}</span></p>
         </div>
+
+        </div>
+       
     
         <ul className="d-flex flex-wrap container" id="product" >
             {

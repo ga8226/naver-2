@@ -2,6 +2,7 @@ const prolist ={
     sellerdb :  
         [
             {
+                
                 imgsrc : "../srcimg/newb.png" ,
                 brandnm : "뉴트리코어",
                 proprice : 462000,
@@ -20,7 +21,7 @@ const prolist ={
                 brandnm : "파이토웨이",
                 proprice : 79000,
                 saleprice : 79000,
-                pronm : "할인안해"
+                pronm : "B발라민비오틴 1통"
             },
             {
                 imgsrc : "../srcimg/ptm.png" ,
@@ -34,6 +35,7 @@ const prolist ={
         sellerdb2 :  
         [
             {
+                
                 imgsrc : "../srcimg/bm.png" ,
                 brandnm : "블랙모어스",
                 proprice : 71700,

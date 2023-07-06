@@ -66,4 +66,15 @@ h1, h2, h3 {
 }
 #product h3 {
   font-size: 22px;
+}
+
+#listdb {
+  height: 120px;
+  background-color: yellow;
+  border-radius: 50px;
+}
+#listdb p {
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 700;
 }/*# sourceMappingURL=bby.css.map */
